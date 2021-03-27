@@ -6,8 +6,7 @@ console.log(num);
 
 if (num >= 0.5) {
     alert('Greater than 0.5');
-}
-else {
+} else {
     alert('Lower than 0.5');
 }
 
@@ -22,24 +21,27 @@ else {
 "Old man" if older than 75 years.
 */
 
-const age = 60;
+const age = 12;
 
-if (age > 0 && age < 2) {
-    alert('Baby');
-} else if (age >= 2 && age <= 12) {
-    alert('Child');
-} else if (age >= 13 && age <= 19) {
-    alert('Adolescent');
-} else if (age >= 20 && age <= 30) {
-    alert('Young');
-} else if (age >= 31 && age <= 60) {
-    alert('Adult');
-} else if (age >= 61 && age <= 75) {
-    alert('Elderly');
-} else if (age >= 75 && age <= 100) {
-    alert ('Old man');
+if (Number.isInteger(age)) {
+    if (age > 0 && age < 2) {
+        alert('Baby');
+    } else if (age >= 2 && age <= 12) {
+        alert('Child');
+    } else if (age >= 13 && age <= 19) {
+        alert('Adolescent');
+    } else if (age >= 20 && age <= 30) {
+        alert('Young');
+    } else if (age >= 31 && age <= 60) {
+        alert('Adult');
+    } else if (age >= 61 && age <= 75) {
+        alert('Elderly');
+    } else if (age >= 75 && age <= 100) {
+        alert('Old man');
+    } else {
+        alert('The entered value is invalid');
+    }
 } else {
-    alert('The entered value is invalid');
-}    
-
+    alert('The number entered is not an integer number');
+}
 

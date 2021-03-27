@@ -2,8 +2,8 @@
  (use toUpperCase).
  */
 
-const txtOne = 'my first word';
-const transformTxt = txtOne.toUpperCase()
+const firstWordActA = 'my first word';
+const transformTxt = firstWordActA.toUpperCase()
 
 console.log(transformTxt);
 
@@ -12,17 +12,17 @@ console.log(transformTxt);
 characters saving the result of a new variable (use substring). 
 */
 
-const firstWord = 'Hello Karen';
-const secondWord = firstWord.substring(0, 6);
+const firstWordActB = 'Hello Karen';
+const secondWordActB = firstWordActB.substring(0, 6);
 
-console.log(secondWord);
+console.log(secondWordActB);
 
 /* Activity c : Create a variable of type string with at least 10 characters and generate a new string with the last ones
  3 characters saving the result in a new variable (use substring).
 */
 
-const principalWord = 'Mozilla Firefox';
-const finalWord = principalWord.substring(12);
+const wordActC = 'Mozilla Firefox';
+const finalWord = wordActC.substring(12);
 
 console.log(finalWord);
 
@@ -31,17 +31,17 @@ capital letter and the others in lowercase. Save the result in a new variable (u
 toLowerCase and the + operator).
 */
 
-const textOne = 'goOgLe cHrOme';
-const finalText = textOne.substring(0, 1).toUpperCase() + textOne.substring(1).toLowerCase();
+const wordOneActD = 'goOgLe cHrOme';
+const finalWordActD = wordOneActD.substring(0, 1).toUpperCase() + wordOneActD.substring(1).toLowerCase();
 
-console.log(finalText);
+console.log(finalWordActD);
 
 /* Activity e : Create a variable of type string with at least 10 characters and some blank space.
  Find the position of the first whitespace and save it to a variable (use indexOf).
  */
 
-const firstText = 'Java Script Language';
-const whiteSpace = firstText.indexOf(' ');
+const wordActE = 'Java Script Language';
+const whiteSpace = wordActE.indexOf(' ');
 
 console.log(whiteSpace);
 

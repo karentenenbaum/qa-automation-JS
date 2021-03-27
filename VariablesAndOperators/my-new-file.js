@@ -6,16 +6,16 @@ const numOne = 5;
 const numTwo = 3;
 const sum = numOne + numTwo;
 
-console.log (sum);
+console.log(sum);
 
 
 //Activity b: Create two variables of type String and concatenate them by saving the result in a third variable.//
 
 const textOne = 'hola';
 const textTwo = 'mundo';
-const textThree = textOne.concat (' ' + textTwo);
+const textThree = textOne.concat(textTwo);
 
-console.log (textThree);
+console.log(textThree);
 
 
 /* Another way to solve it:
