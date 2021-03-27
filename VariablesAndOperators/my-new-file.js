@@ -1,5 +1,5 @@
-/* Activity a: Crear dos variables numéricas y utilizar el operador suma para guardar el valor de la suma 
-de ambos números en una 3er variable. 
+/* Activity a: Create two numerical variables and use the sum operator to save the value of the sum of both numbers
+ in a third variable.  
 */
 
 const numOne = 5;
@@ -9,7 +9,7 @@ const sum = numOne + numTwo;
 console.log (sum);
 
 
-//Activity b: Crear dos variables de tipo String y concatenarlas guardando el resultado en una 3er variable.//
+//Activity b: Create two variables of type String and concatenate them by saving the result in a third variable.//
 
 const textOne = 'hola';
 const textTwo = 'mundo';
@@ -29,8 +29,8 @@ console.log (textThree);
 
 
 /*
-Activity c: Crear dos variables de tipo String y sumar el largo de cada variable 
-(cantidad de letras del string) guardando el resultado la suma una 3er variable (utilizar length).
+Activity c: Crear two variables of type String and add the length of each variable (numbers of letters in the string),
+saving the sum result in a third viariable (use length).
 */
 
 const wordOne = 'Simon';

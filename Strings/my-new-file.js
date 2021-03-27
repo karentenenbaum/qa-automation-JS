@@ -1,5 +1,5 @@
-/* Activity a: Crear una variable de tipo string con al menos 10 caracteres y convertir todo el texto
- en mayúscula (utilizar toUpperCase).
+/* Activity a: Create a variable of type String with at least 10 characters and convert all the text to uppercase
+ (use toUpperCase).
  */
 
 const txtOne = 'my first word';
@@ -8,8 +8,8 @@ const transformTxt = txtOne.toUpperCase()
 console.log(transformTxt);
 
 
-/* Activity b: Crear una variable de tipo string con al menos 10 caracteres y generar 
-un nuevo string con los primeros 5 caracteres guardando el resultado en una nueva variable (utilizar substring). 
+/* Activity b: Create a variable of type String with at least 10 characters and generated a new String with the first 5 
+characters saving the result of a new variable (use substring). 
 */
 
 const firstWord = 'Hello Karen';
@@ -17,8 +17,8 @@ const secondWord = firstWord.substring(0, 6);
 
 console.log(secondWord);
 
-/* Activity c : Crear una variable de tipo string con al menos 10 caracteres y generar un nuevo string con los últimos
- 3 caracteres guardando el resultado en una nueva variable (utilizar substring).
+/* Activity c : Create a variable of type string with at least 10 characters and generate a new string with the last ones
+ 3 characters saving the result in a new variable (use substring).
 */
 
 const principalWord = 'Mozilla Firefox';
@@ -26,9 +26,9 @@ const finalWord = principalWord.substring(12);
 
 console.log(finalWord);
 
-/* Activity d : Crear una variable de tipo string con al menos 10 caracteres y generar un nuevo string con la primera
-letra en mayúscula y las demás en minúscula. Guardar el resultado en una nueva variable (utilizar substring, toUpperCase,
-toLowerCase y el operador +). 
+/* Activity d : Create a variable of type string with at least 10 characters and generate a new string with the first one
+capital letter and the others in lowercase. Save the result in a new variable (use substring, toUpperCase,
+toLowerCase and the + operator).
 */
 
 const textOne = 'goOgLe cHrOme';
@@ -36,8 +36,8 @@ const finalText = textOne.substring(0, 1).toUpperCase() + textOne.substring(1).t
 
 console.log(finalText);
 
-/* Activity e : Crear una variable de tipo string con al menos 10 caracteres y algún espacio en blanco.
- Encontrar la posición del primer espacio en blanco y guardarla en una variable (utilizar indexOf).
+/* Activity e : Create a variable of type string with at least 10 characters and some blank space.
+ Find the position of the first whitespace and save it to a variable (use indexOf).
  */
 
 const firstText = 'Java Script Language';
@@ -45,9 +45,9 @@ const whiteSpace = firstText.indexOf(' ');
 
 console.log(whiteSpace);
 
-/* Activity f : Crear una variable de tipo string con al menos 2 palabras largas (10 caracteres y algún espacio entre 
-medio). Utilizar los métodos de los ejercicios anteriores para generar un nuevo string que tenga la primera letra de ambas palabras 
-en mayúscula y las demás letras en minúscula (utilizar indexOf, substring, toUpperCase, toLowerCase y el operador +).
+/* Activity f : Create a variable of type string with at least 2 long words (10 characters and some space between
+means, medium). Use the methods of the previous exercises to generate a new string that has the first letter of both words
+uppercase and all other lowercase letters (use indexOf, substring, toUpperCase, toLowerCase, and the + operator).
 */
 
 const longWord = 'iNteRnet exPloreR';
