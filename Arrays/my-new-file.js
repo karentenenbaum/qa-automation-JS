@@ -35,8 +35,8 @@ console.log(monthsAlt2)
 
 //Activity f: Unite all the elements of the array in a single string where each month is separated by a hyphen - (use join).//
 
-const monthsArray3 = monthsArray.join('-')
-console.log(monthsArray3);
+const joinString = monthsArray.join('-')
+console.log(joinString);
 
 //Activity g: Create a copy of the array of months that contains from May to November (use slice).//
 
