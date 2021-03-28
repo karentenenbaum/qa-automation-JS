@@ -20,10 +20,10 @@ console.log(textThree);
 
 /* Another way to solve it:
 
-const textOne = 'hola';
-const textTwo = 'mundo';
-const textThree = textOne + ' ' + textTwo;
-console.log (textThree); 
+const textOneActA = 'hola';
+const textTwoActB = 'mundo';
+const textThreeActB = textOneActA + textTwoActB;
+console.log (textThreeActB); 
 
 */
 
